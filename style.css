@@ -108,3 +108,181 @@ footer ul li {
     display: inline;
     margin: 0 10px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+}
+
+header {
+    background: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #c72c2c;
+    font-size: 35px;
+}
+
+p{
+    color: #e2e2e2;
+    font-size: 18px;
+}
+
+ h3{
+    color: #c72c2c;
+ }
+
+ p{
+    color: #e2e2e2;
+    font-size: 18px;
+ }
+ nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease; 
+}
+
+/* Cor quando passar o mouse (hover) */
+nav ul li a:hover {
+    color: #c72c2c;
+}
+
+
+a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+main {
+    padding: 20px;
+    background: rgb(14, 13, 13);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+img {
+    border: 2px;
+    border-radius: 10px;
+    margin: 20px 0;
+    
+}
+
+.imgspfc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+aside {
+    padding: 20px;
+    background: #030303;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #000000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 28px; /* Reduz o tamanho da fonte do título */
+    }
+
+    p {
+        font-size: 16px; /* Ajusta o tamanho da fonte do parágrafo */
+    }
+
+    nav ul li {
+        display: block;  /* Deixa os itens do menu empilhados verticalmente */
+        margin: 10px 0;  /* Ajusta a margem entre os itens */
+    }
+
+    main {
+        margin: 10px;  /* Reduz a margem ao redor do conteúdo */
+        padding: 15px;  /* Ajusta o padding do conteúdo */
+    }
+
+    img {
+        width: 100%; /* Garante que a imagem ocupe 100% da largura */
+        margin: 10px 0; /* Ajusta a margem da imagem */
+    }
+
+    aside {
+        padding: 15px;  /* Reduz o padding do aside */
+        margin: 10px 0;  /* Ajusta a margem do aside */
+    }
+
+    footer ul li {
+        display: block; /* Alinha os itens do footer verticalmente */
+        margin: 5px 0;  /* Ajusta a margem entre os itens */
+    }
+}
+
+/* Para telas de tablets */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 30px; /* Ajusta o tamanho do título para telas menores */
+    }
+
+    p {
+        font-size: 17px; /* Ajusta o tamanho do texto para telas menores */
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    img {
+        width: 100%; /* Ajusta as imagens para telas menores */
+        margin: 15px 0;
+    }
+
+    main {
+        margin: 15px; /* Ajusta as margens */
+        padding: 15px;
+    }
+
+    aside {
+        margin: 15px 0; /* Ajusta a margem */
+        padding: 15px;
+    }
+}
